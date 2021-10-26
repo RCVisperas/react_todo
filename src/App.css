@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+
+.title-text{
+  width: 100%;
+  text-align: left;
+  position: relative;
+  bottom: 10px;
+  color: rgb(63, 63, 138);
+  margin-bottom: 0;
+}
+.btn-pos{
+  width: auto;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  
+}
+.btn-add{
+  position: relative;
+  right: 20px;
+  top: 10px;
+  font-size: 30pt;
+  color: orange;
+}
+.btn-add:hover{
+  cursor: pointer;
+}
+
+.task-remaining{
+  position: relative;
+  width: 100%;
+  font-size: 11pt;
+  top: 5px;
+}
+
+
+.home{
+  text-align: left;
+  display: block;
+  margin: auto;
+  border: 2px;
+  width: 30%;
+  border: 1px solid #586082;
+  border-radius: 10px;
+  margin-top: 120px;
+  padding-left: 5px;
+  line-height: 100%;
+  overflow: auto;
+  font-family: "Roboto", serif;
+  font-size: large;
+  position: relative;
+}
+.home input[type="text"] {
+  margin-top: 15px;
+  border: 2px solid #e16a0b;
+  border-radius: 5px;
+  width: 95%;
+  height: 25px;
+  position: relative;
+  bottom: 10px;
+  left: 3px;
+}
+.title-home-pos{
+  width: 100%;
+  /* background-color: royalblue; */
+}
+
+
+
+.todo-form {
+  display: block;
+  margin: auto;
+  border: 2px;
+  width: 30%;
+  border: 1px solid #586082;
+  border-radius: 20px;
+  margin-top: 120px;
+  padding-left: 10px;
+  line-height: 0px;
+  overflow: auto;
+  font-family: "Roboto";
+  padding: 20px;
+  font-size: large;
+}
+.navBar{
+  text-align: left;
+  color: white;
+  background-color: rgb(35, 35, 148);
+  font-family: "Roboto";
+  border: 1px solid #56639d;
+  padding-left: 25px;
+}
+.todo-text{
+  position: relative;
+  left: 5%;
+  width: 100%;
+  font-size: 18px;
+}
+.icons {
+  position: relative;
+  float: right;
+  width: 100%;
+  padding-bottom: 10px;
+  font-size: 25px;
+
+}
+.delete-icon{
+  font-size: 20px;
+  position: relative;
+  float: right;
+  width: 20%;
+}
+.edit-icon{
+  font-size: 20px;
+  position: relative;
+  float: right;
+  width: 10%;
+}
+.wrapper{
+  width: 100%;
+  height: auto;
+}
+
+.list-comp{
+  width: 100%;
+  position: relative;
+  bottom: 10px;
+}
+.list-todo{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+.todo-div{
+  width: 100%;
+  position: relative;
+  right: 35px;
+  margin-bottom: 10px;
+
+
+}
+li.todo {
+  list-style-type: none;
+  list-style-position: outside;
+  position: relative;
+  width: 100%;
+}
+.complete{
+  position:absolute;
+  left: 0%;
+  margin-right: 20px;
+}
+.delete{
+  background-image: none;
+  background-color: transparent;
+  border: none;
+  position:absolute;
+  right: 0%;
+}
+.delete:hover{
+  cursor: pointer;
+}
+.checkbox-round {
+  width: 1.5em;
+  height: 1.5em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.checkbox-round:hover{
+  background-color: orange;
+}
+
+.checkbox-round:checked {
+  background-color: orange;
+}
